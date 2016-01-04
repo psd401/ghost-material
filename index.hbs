@@ -3,17 +3,19 @@
 
 
 {{! Blog navbar }}
-<nav class="navbar fixed shaded">
+<nav class="navbar fixed shaded red">
   <div class="navbar--row container">
     <!-- Icon -->
     <!-- <div class="navbar--icon"></div> -->
     <!-- Title -->
-    <a class="navbar--title" href="{{@blog.url}}">{{@blog.title}}</a>
+    <a class="navbar--title" href="{{@blog.url}}">
+      <img src="{{@blog.logo}}" height="60px" width="auto"/>
+    </a>
     <!-- Spacer -->
     <div class="navbar--spacer"></div>
     <!-- Links -->
     <nav class="navbar--nav">
-      <a class="navbar--nav-link ripple" href="#!">
+      <!-- <a class="navbar--nav-link ripple" href="#!">
         <i class="mdi mdi-twitter"></i>
         <span class="hide-on-medium">Twitter</span>
       </a>
@@ -24,7 +26,7 @@
       <a class="navbar--nav-link ripple" href="#!">
         <i class="mdi mdi-google-plus"></i>
         <span class="hide-on-medium">Google+</span>
-      </a>
+      </a> -->
     </nav>
   </div>
 </nav>
@@ -34,8 +36,9 @@
 <header class="header shaded bg-darken">
   <!-- Content -->
   <div class="header--content onMiddle container">
-    <h1 class="header--title center">{{@blog.title}}</h1>
-    <h5 class="header--subtitle center">{{@blog.description}}</h5>
+    <h1 class="header--title">{{@blog.title}}</h1>
+    <h5 class="header--subtitle">{{@blog.description}}</h5>
+    <!-- <h1 class="header--title">{{@blog.description}}</h5> -->
   </div>
   <!-- Background -->
   {{#if @blog.cover}}

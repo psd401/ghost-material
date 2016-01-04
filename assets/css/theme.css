@@ -20,7 +20,7 @@ a:hover {
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #26a69a;
+  background-color: #76D0E8;
   color: white;
 }
 .navbar a {
@@ -121,10 +121,10 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #00897b;
+  background-color: #76D0E8;
 }
 .footer a {
-  color: #B2DFDB;
+  color: #C5F3EE;
 }
 .footer a:hover {
   color: #FFFFFF;
