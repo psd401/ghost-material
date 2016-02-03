@@ -8,19 +8,19 @@ body {
   background-color: #E4E7EA;
 }
 a {
-  color: #ffb300;
+  color: #37ABFF;
 }
 a:hover {
-  color: #00897b;
+  color: #013A63;
 }
 .bg-image.no-image {
-  background-color: #26a69a;
+  background-color: rgba(0, 111, 191, 0.79);
 }
 
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #76D0E8;
+  background-color: #014678;
   color: white;
 }
 .navbar a {
@@ -52,15 +52,15 @@ a:hover {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: teal;
+  border-color: #013B65;
 }
 .post--content p > code {
-  background-color: #e0f2f1;
-  color: teal;
+  background-color: #CFEBFF;
+  color: #013B65;
 }
 .post--content blockquote {
-  background-color: #e0f2f1;
-  border-color: teal;
+  background-color: #CFEBFF;
+  border-color: #013B65;
 }
 .post--tags a {
   color: #888;
@@ -92,14 +92,14 @@ a:hover {
   background-color: rgba(0,0,0,.05);
 }
 .author--media {
-  background-color: #26a69a;
+  background-color: #014678;
 }
 
 /* --- FABs ----------------------------------------------------------------- */
 
 .fab {
   color: white;
-  background-color: #ffb300;
+  background-color: #37ABFF;
 }
 .fab:hover {
   color: white;
@@ -109,7 +109,7 @@ a:hover {
 
 .button.solid {
   color: white;
-  background-color: #ffb300;
+  background-color: #37ABFF;
 }
 
 /* --- Waves ---------------------------------------------------------------- */
@@ -121,23 +121,27 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #76D0E8;
+  background-color: #014678;
 }
 .footer a {
-  color: #C5F3EE;
+  color: white;
+  opacity: 0.5;
 }
 .footer a:hover {
   color: #FFFFFF;
+  opacity: 1;
 }
 .footer--top {
-  color: #80cbc4;
+  color: white;
 }
 .footer--bottom a {
-  color: #004d40;
+  color: white;
+  opacity: 1;
 }
 .footer--bottom a:hover {
   color: #80cbc4;
 }
 .footer--bottom {
   color: #004d40 ;
+  display: none;
 }
